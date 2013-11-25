@@ -59,7 +59,7 @@ NSString * const CHExpandingTextViewWillChangeHeightNotification = @"CHExpanding
     
     /* Remove the keyboard and clear the text */
     [self.textView resignFirstResponder];
-    [self.textView clearText];
+    [self clearText];
 }
 
 -(void)setupToolbar:(NSString *)buttonLabel
@@ -231,6 +231,10 @@ NSString * const CHExpandingTextViewWillChangeHeightNotification = @"CHExpanding
             [self.innerBarButton setBackgroundImage:stretchableButtonImage forState:UIControlStateNormal];
         }
     }
+}
+
+- (void)clearText {
+    [self.textView clearText];
 }
 
 #pragma mark -- for iOS7

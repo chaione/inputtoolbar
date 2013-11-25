@@ -55,4 +55,6 @@ extern NSString * const CHExpandingTextViewWillChangeHeightNotification;
 
 + (BOOL)isIOS7AndUp;
 
+- (void)clearText;
+
 @end
