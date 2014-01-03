@@ -46,6 +46,7 @@ extern NSString * const CHExpandingTextViewWillChangeHeightNotification;
 
 @property (nonatomic, retain) UIExpandingTextView *textView;
 @property (nonatomic) NSInteger characterLimit;
+@property (nonatomic, retain) UILabel *characterCountLabel;
 @property (nonatomic, retain) UIBarButtonItem *inputButton;
 @property (nonatomic) BOOL inputButtonShouldDisableForNoText;
 @property (nonatomic, assign) id<UIInputToolbarDelegate> inputDelegate;

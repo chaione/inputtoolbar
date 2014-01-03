@@ -47,8 +47,9 @@ NSString * const CHExpandingTextViewWillChangeHeightNotification = @"CHExpanding
 @synthesize inputButtonShouldDisableForNoText;
 @synthesize inputDelegate = inputDelegate;
 @synthesize backgroundImage;
-@synthesize inputButtonImage=_inputButtonImage;
+@synthesize inputButtonImage = _inputButtonImage;
 @synthesize innerBarButton;
+@synthesize characterCountLabel = characterCountLabel;
 
 -(void)inputButtonPressed
 {
