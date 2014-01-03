@@ -41,11 +41,11 @@ NSString * const CHExpandingTextViewWillChangeHeightNotification = @"CHExpanding
 
 @implementation UIInputToolbar
 
-@synthesize textView;
+@synthesize textView = textView;
 @synthesize characterLimit;
-@synthesize inputButton;
+@synthesize inputButton = inputButton;
 @synthesize inputButtonShouldDisableForNoText;
-@synthesize inputDelegate;
+@synthesize inputDelegate = inputDelegate;
 @synthesize backgroundImage;
 @synthesize inputButtonImage=_inputButtonImage;
 @synthesize innerBarButton;
